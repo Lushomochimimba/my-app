@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import music from './music.jpg'
 import text from './text.jpg'
 import tv from './tv.jpg'
-
+import ice from './ice.jpg'
+import cupcake from './cupcake.jpg'
+import cookie from './cookie.jpg'
+import calendar from './calendar.jpg'
 export class Card extends Component {
   render() {
 
@@ -17,7 +20,7 @@ export class Card extends Component {
 
 
     </div>
-
+calendar
     <h1 className = "center2"></h1>
 
     <div className="container">
@@ -50,7 +53,7 @@ export class Card extends Component {
 
         <div className = "col-md-4 hold card">
 
-          <img className = "resize" src={}/>
+          <img className = "resize" src={ice}/>
 
           <button><i className="far fa-heart"></i></button>
 
@@ -58,7 +61,7 @@ export class Card extends Component {
 
         <div className = "col-md-4 hold card">
 
-          <img className = "resize" src={}/>
+          <img className = "resize" src={cupcake}/>
 
           <button><i className="far fa-heart"></i></button>
 
@@ -66,7 +69,7 @@ export class Card extends Component {
 
         <div className = "col-md-4 hold card">
 
-          <img className = "resize" src={}/>
+          <img className = "resize" src={cookie}/>
 
           <button><i className="far fa-heart"></i></button>
 
@@ -74,7 +77,7 @@ export class Card extends Component {
 
         <div className = "col-md-4 hold card">
 
-          <img className = "resize" src={}/>
+          <img className = "resize" src={calendar}/>
 
           <button><i className="far fa-heart"></i></button>
 
@@ -82,7 +85,7 @@ export class Card extends Component {
 
         <div className = "col-md-4 hold card">
 
-          <img className = {}/>
+          <img className="resize" src={ice}/>
 
         <button><i class="far fa-heart"></i></button>
 
@@ -90,7 +93,7 @@ export class Card extends Component {
 
         <div className = "col-md-4 hold card">
 
-          <img className = "resize" src="https://images.unsplash.com/photo-1518614768202-663a3a0ecf59?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=908a0ab5ff1226fbdd7f9ebf0e5590c6&auto=format&fit=crop&w=400&q=60"/>
+          <img className = "resize" src={cupcake} />
 
           <button><i className="far fa-heart"></i></button>
 
